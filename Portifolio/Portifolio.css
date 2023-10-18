@@ -1,0 +1,94 @@
+/* Reset some default styles in CSS*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Style the sections */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the about section image */
+section img {
+    width: 150px;
+    height: auto;
+}
+
+/* Style headings */
+section h2 {
+    font-size: 24px;
+}
+
+section a {
+    color: blue;
+}
+
+
+/* Style lists */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Style projects */
+.project {
+    margin-bottom: 20px;
+}
+
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: white;
+}
